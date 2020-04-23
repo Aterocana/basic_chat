@@ -1,0 +1,20 @@
+[package]
+name = "chat"
+version = "0.1.0"
+authors = ["Aterocana <dominicimaurizio@gmail.com>"]
+edition = "2018"
+
+[[bin]]
+name = "client"
+src = "src/bin/client/main.rs"
+
+[[bin]]
+name = "server"
+src = "src/bin/server/main.rs"
+
+[lib]
+name = "message"
+src = "src/lib.rs"
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
